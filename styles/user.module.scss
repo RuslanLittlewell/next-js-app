@@ -1,0 +1,16 @@
+.userData {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 20px;
+
+  &__labels {
+
+  }
+
+  &__infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
